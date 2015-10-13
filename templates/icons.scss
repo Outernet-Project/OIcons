@@ -3,7 +3,7 @@
 $oicons-prefix: '' !default;
 
 $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
-  <%= glyph %>: '<%= codepoints[idx] %>',<% }); %>
+  <%= glyph %>: '\<%= codepoints[idx] %>',<% }); %>
 );
 
 // Shortcut to add font-face definition
