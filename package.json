@@ -1,0 +1,21 @@
+{
+  "name": "outernet-icons",
+  "version": "0.0.1",
+  "description": "Icons for Outernet interfaces",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-webfont": "^0.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Outernet",
+    "icons",
+    "svg"
+  ],
+  "author": "Outernet Inc <apps@outernet.is>",
+  "license": "MIT"
+}

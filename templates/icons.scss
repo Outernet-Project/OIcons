@@ -1,0 +1,56 @@
+@import "compass/css3";
+
+$oicons-prefix: '' !default;
+
+$glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
+  <%= glyph %>: '<%= codepoints[idx] %>',<% }); %>
+)
+
+// Shortcut to add font-face definition
+@mixin icon-font-face {
+  @include font-face(
+    '<%= fontBaseName %>', font-files(
+      "#{$oicons-prefix}<%= fontFilename %>.eot",
+      "#{$oicons-prefix}<%= fontFilename %>.ttf",
+      "#{$oicons-prefix}<%= fontFilename %>.woff"));
+}
+
+// Base styles for all icons
+@mixin icon-base {
+  font-family: "<%= fontBaseName %>";
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 1;
+  font-weight: normal;
+  font-style: normal;
+  speak: none;
+  text-decoration: inherit;
+  text-transform: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Mixin for a single icon
+@mixin icon($name) {
+  &:before {
+    content: map-get($glyphs, $name);
+  }
+}
+
+// Shortcut to add all icon classes
+@mixin icon-classes {
+  .<%= baseClass %> {
+    @include icon-base;
+  }
+
+  @each $name in map-keys($glyphs) {
+    .<%= classPrefix %>#{$name} {
+      @include icon($name);
+    }
+  }
+}
+
+/*
+ * <%= fontFilename %>
+ */
