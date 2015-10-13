@@ -5,8 +5,7 @@ module.exports = function (grunt) {
         webfont: {
             icons: {
                 src: 'src/*.svg',
-                dest: 'build/fonts',
-                prefix: 'icon-',
+                dest: 'build',
                 options: {
                     template: 'templates/icons.scss',
                     font: 'OIcons',
