@@ -6,6 +6,11 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
   <%= glyph %>: '\<%= codepoints[idx] %>',<% }); %>
 );
 
+@include keyframes('spin') {
+  from { @include rotate(0deg); }
+  to { @include rotate(360deg); }
+}
+
 // Shortcut to add font-face definition
 @mixin icon-font-face {
   @include font-face(
@@ -51,6 +56,12 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
   }
 }
 
+@mixin spinner($size: 100%) {
+  @include icon(spinner);
+  @include animation(spin 2s linear infinite);
+  font-size: $size;
+}
+
 // Shortcut to add all icon classes
 @mixin icon-classes {
   .<%= baseClass %> {
@@ -62,8 +73,12 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
       @include icon($name);
     }
   }
-}
 
-/*
- * <%= fontFilename %>
- */
+  .<%= baseClass %>-spinning-loader {
+    @include spinner;
+  }
+
+  .<%= baseClass %>-spinning-loader-xxl {
+    @include spinner(300%);
+  }
+}
