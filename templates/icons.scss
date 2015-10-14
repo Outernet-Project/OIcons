@@ -27,6 +27,7 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
   // Basic geometry
   display: inline-block;
   speak: none;
+  vertical-align: middle;
 
   // Text rendering settings
   text-rendering: auto;
@@ -34,6 +35,11 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
   -moz-osx-font-smoothing: grayscale;
 
   &:before {
+    line-height: 1;
+    vertical-align: baseline;
+  }
+
+  & ~ * {
     vertical-align: middle;
   }
 }
