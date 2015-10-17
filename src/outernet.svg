@@ -34,8 +34,8 @@
      units="px"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1007"
+     inkscape:window-width="1600"
+     inkscape:window-height="817"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -142,7 +142,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -154,7 +154,7 @@
     <g
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.10883141px;line-height:125%;font-family:'Brandon Text';-inkscape-font-specification:'Brandon Text';text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="text4421"
-       transform="matrix(1.0143003,0,0,1.0143003,-0.59949778,-13.334842)">
+       transform="matrix(1.1560695,0,0,1.1560695,-2.5895974,-160.61048)">
       <path
          d="m 2.2400016,1038.8454 c 0,0.8259 0.657413,1.4751 1.4791793,1.4751 0.8258751,0 1.4832881,-0.6492 1.4832881,-1.4751 0,-0.8217 -0.657413,-1.4833 -1.4832881,-1.4833 -0.8217663,0 -1.4791793,0.6616 -1.4791793,1.4833 z m 0.1807885,0 c 0,-0.719 0.5793453,-1.3025 1.2983908,-1.3025 0.7190455,0 1.3024995,0.5835 1.3024995,1.3025 0,0.7191 -0.583454,1.2943 -1.3024995,1.2943 -0.7190455,0 -1.2983908,-0.5752 -1.2983908,-1.2943 z"
          style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'Brandon Grotesque';-inkscape-font-specification:'Brandon Grotesque Light';fill:#000000"
