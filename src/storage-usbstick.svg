@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="0.30278318"
-     inkscape:cy="3.8594978"
+     inkscape:zoom="11.313709"
+     inkscape:cx="-8.6324409"
+     inkscape:cy="9.4943581"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -47,7 +47,8 @@
      inkscape:snap-center="true"
      inkscape:snap-bbox-midpoints="true"
      inkscape:snap-bbox-edge-midpoints="true"
-     inkscape:bbox-nodes="true">
+     inkscape:bbox-nodes="true"
+     inkscape:snap-smooth-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid4136"
@@ -144,7 +145,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -155,8 +156,10 @@
      transform="translate(0,-1028.3622)">
     <path
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 9 2 C 7.8919904 2 7 2.8919904 7 4 L 7 16 C 7 17.10801 7.8919904 18 9 18 L 9 22 L 15 22 L 15 18 C 16.10801 18 17 17.10801 17 16 L 17 4 C 17 2.8919904 16.10801 2 15 2 L 9 2 z M 11.5 3 L 12.5 3 C 13.331005 3 14 3.4223103 14 3.9472656 L 14 4.0527344 C 14 4.5776897 13.331005 5 12.5 5 L 11.5 5 C 10.668995 5 10 4.5776897 10 4.0527344 L 10 3.9472656 C 10 3.4223103 10.668995 3 11.5 3 z M 10 19 L 11 19 L 11 21 L 10 21 L 10 19 z M 13 19 L 14 19 L 14 21 L 13 21 L 13 19 z "
+       d="M 9,2 C 7.8919904,2 7,2.8919904 7,4 l 0,12 1,0 0,1 1,0 0,5 6,0 0,-5 1,0 0,-1 1,0 0,-12 C 17,2.8919904 16.10801,2 15,2 Z m 2,1 2,0 c 0.831005,0 1,0.4223103 1,0.9472656 l 0,0.1054688 C 14,4.5776897 13.831005,5 13,5 L 11,5 C 10.168995,5 10,4.5776897 10,4.0527344 L 10,3.9472656 C 10,3.4223103 10.168995,3 11,3 Z m -1,16 1,0 0,1 -1,0 z m 3,0 1,0 0,1 -1,0 z"
        transform="translate(0,1028.3622)"
-       id="rect4158" />
+       id="rect4158"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssccccccccccsssssssssssscccccccccc" />
   </g>
 </svg>
