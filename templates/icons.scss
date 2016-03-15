@@ -32,11 +32,16 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
   // Basic geometry
   display: inline-block;
   speak: none;
+  vertical-align: middle;
 
   // Text rendering settings
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  & ~ * {
+    vertical-align: middle;
+  }
 }
 
 // Mixin for a single icon
