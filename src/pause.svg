@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="32"
-     inkscape:cx="4.740654"
+     inkscape:cx="-5.540596"
      inkscape:cy="6.811649"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -35,9 +35,9 @@
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:window-width="3188"
-     inkscape:window-height="833"
+     inkscape:window-height="1708"
      inkscape:window-x="0"
-     inkscape:window-y="911"
+     inkscape:window-y="36"
      inkscape:window-maximized="0"
      inkscape:object-nodes="true"
      inkscape:snap-intersection-paths="true"
@@ -160,7 +160,7 @@
      transform="translate(0,-1028.3622)">
     <path
        style="fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
-       d="m 4,1032.3622 0,18 6,0 0,-18 -6,0 z m 10,0 0,18 6,0 0,-18 -6,0 z"
+       d="m 4,1030.3622 0,20 6,0 0,-20 -6,0 z m 10,0 0,20 6,0 0,-20 -6,0 z"
        id="rect4159"
        inkscape:connector-curvature="0" />
   </g>
