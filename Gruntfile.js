@@ -11,7 +11,6 @@ module.exports = function (grunt) {
                     font: 'OIcons',
                     fontFilename: 'oicons-{hash}',
                     htmlDemo: false,
-                    descent: 0,
                     templateOptions: {
                         baseClass: 'icon',
                         classPrefix: 'icon-',
