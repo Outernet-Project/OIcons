@@ -42,6 +42,10 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
   & ~ * {
     vertical-align: middle;
   }
+
+  &:before {
+    display: inline-block;
+  }
 }
 
 // Mixin for a single icon
@@ -53,8 +57,11 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
 
 @mixin spinner($size: 100%) {
   @include icon(spinner);
-  @include animation(spin 2s linear infinite);
   font-size: $size;
+
+  &:before {
+    @include animation(spin 2s linear infinite);
+  }
 }
 
 // Shortcut to add all icon classes
