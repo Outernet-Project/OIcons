@@ -17,7 +17,7 @@ previews: $(sort $(PREVIEWS))
 
 preview/%.png: src/%.svg preview PREVIEW.mkd
 	inkscape -z -e "$@" -w $(SIZE) -h $(SIZE) "$<"
-	echo "+ ![]($$(basename "$@")) **$$(basename "$@")**" >> PREVIEW.mkd
+	echo "+ ![]($@) **$$(basename "$@")**" >> PREVIEW.mkd
 
 PREVIEW.mkd: preview
 	echo "# OIcons" > $@
