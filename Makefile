@@ -12,6 +12,7 @@ build:
 clean:
 	-rm -rf build
 	-rm -rf preview
+	-rm PREVIEW.mkd
 
 previews: $(sort $(PREVIEWS))
 
