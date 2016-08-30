@@ -13,13 +13,13 @@ clean:
 	-rm -rf build
 	-rm -rf preview
 
-previews: $(PREVIEWS)
+previews: $(sort $(PREVIEWS))
 
-preview/%.png: src/%.svg preview preview/README.mkd
+preview/%.png: src/%.svg preview PREVIEW.mkd
 	inkscape -z -e "$@" -w $(SIZE) -h $(SIZE) "$<"
-	echo "+ **$$(basename "$@")** ![]($$(basename "$@"))" >> preview/README.mkd
+	echo "+ ![]($$(basename "$@")) **$$(basename "$@")**" >> PREVIEW.mkd
 
-preview/README.mkd: preview
+PREVIEW.mkd: preview
 	echo "# OIcons" > $@
 
 preview:
