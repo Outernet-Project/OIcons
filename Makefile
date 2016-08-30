@@ -2,7 +2,7 @@
 
 SOURCES = $(wildcard src/*.svg)
 PREVIEWS = $(SOURCES:src/%.svg=preview/%.png)
-SIZE = 128
+SIZE = 64
 
 compile: ./build
 
