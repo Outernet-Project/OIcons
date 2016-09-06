@@ -28,6 +28,7 @@ $glyphs: (<% glyphs.forEach(function (glyph, idx) { %>
   font-style: normal;
   text-decoration: inherit;
   text-transform: none;
+  font-size: 1.3em;
 
   // Basic geometry
   display: inline-block;
