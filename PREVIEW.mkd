@@ -53,6 +53,7 @@
 + ![](preview/file-vector.png) **file-vector.png**
 + ![](preview/file-video.png) **file-video.png**
 + ![](preview/file.png) **file.png**
++ ![](preview/flag.png) **flag.png**
 + ![](preview/folder-audio.png) **folder-audio.png**
 + ![](preview/folder-circle.png) **folder-circle.png**
 + ![](preview/folder-down.png) **folder-down.png**
@@ -145,6 +146,9 @@
 + ![](preview/tuner.png) **tuner.png**
 + ![](preview/tweet.png) **tweet.png**
 + ![](preview/unlock.png) **unlock.png**
++ ![](preview/upload-bar.png) **upload-bar.png**
++ ![](preview/upload-outline.png) **upload-outline.png**
++ ![](preview/upload.png) **upload.png**
 + ![](preview/user-exclamation.png) **user-exclamation.png**
 + ![](preview/user-key.png) **user-key.png**
 + ![](preview/user-minus.png) **user-minus.png**
